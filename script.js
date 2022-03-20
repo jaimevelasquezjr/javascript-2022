@@ -1,19 +1,25 @@
-/*
-## Variables #1
+/**
+ *
+ * Title: Number Additional Features
+ * +=, -=, /=, *=, ++, --, %
+ *
+ */
 
-1. create "firstName" and "last_name" variables
-2. assign your values
-3. create "address" variable and assign "main street" value to it
-4. re-assign address to "first street" later
-5. log all values in the console
+let number = 5;
+number += 5;
+number += 5;
+number += 5;
+number += 5;
+number -= 5;
+number /= 5;
+number++;
+number--;
 
-*/
+console.log(number);
 
-const firstName = 'Jaime';
-const last_name = 'Velasquez';
-let address = 'main street';
-address = 'first street';
+// Modulus
+const pizzaSlices = 9;
+const person = 7;
+const result = pizzaSlices % person;
 
-console.log('Firstname: ' + firstName);
-console.log('Lastname: ' + last_name);
-console.log('Address: ' + address);
+console.log(result);
